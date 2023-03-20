@@ -1,0 +1,83 @@
+label {
+    color: black;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: 600;
+}
+.a{
+    border: 2px solid rgb(8, 8, 10);
+    border-radius: 12px;
+
+}
+  .a1 {
+    border: 2px solid rgb(8, 8, 10);
+    border-radius: 12px;
+    width: 67%;
+    height: 24px;
+    background: #0000ff1c;
+}
+.a2{
+  border: 2px solid #004d40;
+    border-radius: 12px;
+    width: 21%;
+    height: 27px;
+    background: #0000ff1c;
+}
+
+button{
+    font-family: monospace;
+    border: 7px solid #7a98ffb3;
+    border-radius: 16px;
+    background: #7abaffa8;
+    color: #000000d1;
+
+}
+buttonS{
+    font-family: monospace;
+    border: 7px solid #7a98ffb3;
+    border-radius: 16px;
+    background: #7abaffa8;
+    color: #000000d1;
+}
+h1{
+    color: black;
+    font-style: normal;
+    font-family: monospace;
+    font-size: xxx-large;
+}
+form{
+    width: 30%;
+    border-radius: 16px;
+    
+    
+}
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  h4{
+    font-family: monospace;
+  }
+  body{
+    background-image: url('pexels-julian-paolo-dayag-1673973.jpg');
+   background-size: 100% 220%;
+   background-repeat: no-repeat;
+  }
+  sup{
+    color: red;
+    animation: blink 4s steps(3, end) infinite;
+  }
+  
+  
+  

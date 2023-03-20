@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>SignUp</title>
+    
+</head>
+<body onload="GenerateCaptcha();">
+    <form action="index.html" onsubmit="return signup()" name="form" >
+        <h1>SignUp</h1>
+
+        
+        <label for="">Email <sup>*</sup></label><br><br>
+        <input type="email" name="email" id="email" class="a1">
+        <br>
+        <br>
+        <label for="">Title<sup>*</sup></label>&nbsp;&nbsp;&nbsp;<label for="">First name<sup>*</sup></label><br>
+        <select name="title" id="ttl"  class="a2">
+            <option></option>
+            <option value="">Mr</option>
+            <option value="">Ms</option>
+            <option value="">Mrs</option> 
+        </select>
+
+        
+        &nbsp;<input type="text" name="firstname" id="fname" class="a1"><br><br>
+        <label for="">Last name<sup>*</sup></label><br>
+        <input type="text" name="lastname" id="lname" class="a1"><br>
+        <br>
+        <label for="">Phone<sup>*</sup></label><br>
+        <select name="" id="te" class="a2">
+            <option></option>
+            <option value="">IND +91</option>
+            <option value="">CAN +92</option>
+            <option value="">AMR +93</option>
+        </select>
+        <input type="tel" name="ph" id="phone"  class="a1"><br>
+        <br>
+        <br>
+        <br>
+        <div > 
+            <h2>Generating Captcha</h2>  
+      
+            Enter the Captcha Text:  
+            <input type="text" id="txtCompare" />  
+            <input type="text" id="txtCaptcha" style="text-align: center; border: none; font-weight: bold; font-size: 20px; font-family: Modern" />  
+            <input type="button" id="btnrefresh" value="Refresh" onclick="GenerateCaptcha();" />  
+            <span id="error"></span>
+            <br />  
+            <br />  
+        
+        <input type="checkbox" id="box" value="check">
+        <label>Accept all terms and Conditions</label><br>
+        <br>
+        <button type="submit" value="Check">Register</button>
+        <button type="reset" >Cancel</button>
+        
+        </div>  
+        
+       
+
+        
+
+    </form>
+    
+</body>
+</html>
